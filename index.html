@@ -29,6 +29,7 @@
         p {
             color: #666;
             font-size: 18px;
+            line-height: 1.6;
         }
 
         .btn {
@@ -45,14 +46,88 @@
         .btn:hover {
             background-color: #0056b3;
         }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .feature {
+            flex: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        .feature h2 {
+            color: #333;
+        }
+
+        .feature p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .success-stories {
+            margin-top: 50px;
+        }
+
+        .story {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .story h2 {
+            color: #333;
+        }
+
+        .story p {
+            color: #666;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Welcome to Himanshu Nathani CA Firm!</h1>
-    <p>We provide expert financial and consultancy services to meet your business needs.</p>
+    <p>We are your trusted partner in finance and consultancy services, offering expert solutions tailored to your business needs.</p>
     <a href="#" class="btn">Learn More</a>
+
+    <div class="features">
+        <div class="feature">
+            <h2>Financial Planning</h2>
+            <p>Let us help you navigate the complexities of financial planning to secure a prosperous future for your business.</p>
+        </div>
+        <div class="feature">
+            <h2>Tax Consultation</h2>
+            <p>Maximize your tax efficiency and minimize liabilities with our comprehensive tax consultation services.</p>
+        </div>
+        <div class="feature">
+            <h2>Business Advisory</h2>
+            <p>Gain strategic insights and expert advice to drive growth and profitability in your business ventures.</p>
+        </div>
+    </div>
+
+    <div class="success-stories">
+        <div class="story">
+            <h2>Client Success Story 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque id mauris sit amet ultricies.</p>
+        </div>
+        <div class="story">
+            <h2>Client Success Story 2</h2>
+            <p>Donec fermentum orci sit amet libero sodales, at accumsan risus venenatis. Sed vitae orci vitae lorem tristique tempus.</p>
+        </div>
+        <div class="story">
+            <h2>Client Success Story 3</h2>
+            <p>Nullam vel velit at ante tempus aliquet vitae et libero. In convallis magna sed orci aliquet, non accumsan dui rutrum.</p>
+        </div>
+    </div>
 </div>
 
 </body>
